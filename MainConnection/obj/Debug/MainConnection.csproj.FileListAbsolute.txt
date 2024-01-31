@@ -1,0 +1,10 @@
+C:\keyser\MainConnection\bin\Debug\MainConnection.exe.config
+C:\keyser\MainConnection\bin\Debug\MainConnection.exe
+C:\keyser\MainConnection\bin\Debug\MainConnection.pdb
+C:\keyser\MainConnection\obj\Debug\MainConnection.FormMainConnection.resources
+C:\keyser\MainConnection\obj\Debug\MainConnection.Properties.Resources.resources
+C:\keyser\MainConnection\obj\Debug\MainConnection.csproj.GenerateResource.cache
+C:\keyser\MainConnection\obj\Debug\MainConnection.csproj.CoreCompileInputs.cache
+C:\keyser\MainConnection\obj\Debug\MainConnection.exe
+C:\keyser\MainConnection\obj\Debug\MainConnection.pdb
+C:\keyser\MainConnection\obj\Debug\MainConnection.csproj.AssemblyReference.cache

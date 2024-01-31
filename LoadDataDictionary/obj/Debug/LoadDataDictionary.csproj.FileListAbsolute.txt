@@ -1,0 +1,14 @@
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.csproj.AssemblyReference.cache
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.FormLoadDataDictionary.resources
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.Properties.Resources.resources
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.csproj.GenerateResource.cache
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.csproj.CoreCompileInputs.cache
+C:\keyser\LoadDataDictionary\bin\Debug\LoadDataDictionary.exe.config
+C:\keyser\LoadDataDictionary\bin\Debug\LoadDataDictionary.exe
+C:\keyser\LoadDataDictionary\bin\Debug\LoadDataDictionary.pdb
+C:\keyser\LoadDataDictionary\bin\Debug\keyser.exe
+C:\keyser\LoadDataDictionary\bin\Debug\keyser.pdb
+C:\keyser\LoadDataDictionary\bin\Debug\keyser.exe.config
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.csproj.CopyComplete
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.exe
+C:\keyser\LoadDataDictionary\obj\Debug\LoadDataDictionary.pdb

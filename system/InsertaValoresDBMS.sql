@@ -1,0 +1,6 @@
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('SQL Server')
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('MySQL')
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('PostgreSQL')
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('MariaDB')
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('MongoDB')
+INSERT INTO [keyser].[dbo].[dbms] ([dbms]) VALUES ('Firebase')

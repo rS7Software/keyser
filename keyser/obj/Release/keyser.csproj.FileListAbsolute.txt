@@ -1,0 +1,10 @@
+C:\keyser\keyser\obj\Release\keyser.Properties.Resources.resources
+C:\keyser\keyser\obj\Release\keyser.csproj.GenerateResource.cache
+C:\keyser\keyser\obj\Release\keyser.csproj.CoreCompileInputs.cache
+C:\keyser\keyser\bin\Release\keyser.exe.config
+C:\keyser\keyser\bin\Release\keyser.exe
+C:\keyser\keyser\bin\Release\keyser.pdb
+C:\keyser\keyser\obj\Release\keyser.FormMenu.resources
+C:\keyser\keyser\obj\Release\keyser.exe
+C:\keyser\keyser\obj\Release\keyser.pdb
+C:\keyser\keyser\obj\Release\keyser.csproj.AssemblyReference.cache

@@ -1,0 +1,2 @@
+15-01-2024 18:55:37 Entró a LoadDataDictionary
+15-01-2024 19:23:28 Entró a LoadDataDictionary

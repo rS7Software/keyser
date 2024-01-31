@@ -1,0 +1,17 @@
+C:\keyser\SQLWizards\bin\Release\SQLWizards.exe.config
+C:\keyser\SQLWizards\bin\Release\SQLWizards.exe
+C:\keyser\SQLWizards\bin\Release\SQLWizards.pdb
+C:\keyser\SQLWizards\bin\Release\keyser.exe
+C:\keyser\SQLWizards\bin\Release\keyser.pdb
+C:\keyser\SQLWizards\bin\Release\keyser.exe.config
+C:\keyser\SQLWizards\obj\Release\SQLWizards.csproj.AssemblyReference.cache
+C:\keyser\SQLWizards\obj\Release\SQLWizards.FormSQLWizards.resources
+C:\keyser\SQLWizards\obj\Release\SQLWizards.Properties.Resources.resources
+C:\keyser\SQLWizards\obj\Release\SQLWizards.csproj.GenerateResource.cache
+C:\keyser\SQLWizards\obj\Release\SQLWizards.csproj.CoreCompileInputs.cache
+C:\keyser\SQLWizards\obj\Release\SQLWizards.csproj.CopyComplete
+C:\keyser\SQLWizards\obj\Release\SQLWizards.exe
+C:\keyser\SQLWizards\obj\Release\SQLWizards.pdb
+C:\keyser\system\SQLWizards.exe.config
+C:\keyser\system\SQLWizards.exe
+C:\keyser\system\SQLWizards.pdb

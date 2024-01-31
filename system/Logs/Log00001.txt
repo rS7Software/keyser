@@ -1,0 +1,581 @@
+25-01-2024 17:16:13 Entró a LoadDataDictionary
+25-01-2024 17:16:13 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:16:13 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:5cfa0c87-77d2-489f-81dc-dde0d2a3a918
+Error Number:2714,State:3,Class:16
+25-01-2024 17:16:13 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:16:13 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:5cfa0c87-77d2-489f-81dc-dde0d2a3a918
+Error Number:2714,State:3,Class:16
+25-01-2024 17:16:22 Entró al Menú principal
+25-01-2024 17:17:11 Entró al Menú principal
+25-01-2024 17:17:16 Entró a LoadDataDictionary
+25-01-2024 17:17:16 [Error] Script: C:\keyser\system\InsertaEndbmarchivos.sql
+25-01-2024 17:17:16 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmarchivos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 318
+ClientConnectionId:07c3efd8-78f0-43db-a603-2d40b3040aff
+Error Number:2714,State:3,Class:16
+25-01-2024 17:17:16 [Error] Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+25-01-2024 17:17:16 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmdiccionario' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 318
+ClientConnectionId:07c3efd8-78f0-43db-a603-2d40b3040aff
+Error Number:2714,State:3,Class:16
+25-01-2024 17:17:16 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:17:16 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 318
+ClientConnectionId:07c3efd8-78f0-43db-a603-2d40b3040aff
+Error Number:2714,State:3,Class:16
+25-01-2024 17:17:16 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:17:16 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 318
+ClientConnectionId:07c3efd8-78f0-43db-a603-2d40b3040aff
+Error Number:2714,State:3,Class:16
+25-01-2024 17:17:36 Entró al Menú principal
+25-01-2024 17:19:44 Entró al Menú principal
+25-01-2024 17:19:48 Entró a LoadDataDictionary
+25-01-2024 17:19:48 [Error] Script: C:\keyser\system\InsertaEndbmarchivos.sql
+25-01-2024 17:19:48 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmarchivos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:ab2c3e66-f672-4656-a710-1ee2dc375a36
+Error Number:2714,State:3,Class:16
+25-01-2024 17:19:48 [Error] Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+25-01-2024 17:19:48 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmdiccionario' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:ab2c3e66-f672-4656-a710-1ee2dc375a36
+Error Number:2714,State:3,Class:16
+25-01-2024 17:19:48 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:19:48 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:ab2c3e66-f672-4656-a710-1ee2dc375a36
+Error Number:2714,State:3,Class:16
+25-01-2024 17:19:48 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:19:48 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:ab2c3e66-f672-4656-a710-1ee2dc375a36
+Error Number:2714,State:3,Class:16
+25-01-2024 17:19:52 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+25-01-2024 17:19:56 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+25-01-2024 17:20:00 Entró al Menú principal
+25-01-2024 17:20:03 Entró a LoadDataDictionary
+25-01-2024 17:20:03 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:20:03 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:093bb353-e3b7-42a6-9d34-258ca9e7ae21
+Error Number:2714,State:3,Class:16
+25-01-2024 17:20:03 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:20:03 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:093bb353-e3b7-42a6-9d34-258ca9e7ae21
+Error Number:2714,State:3,Class:16
+25-01-2024 17:23:14 Entró al Menú principal
+25-01-2024 17:24:01 Entró al Menú principal
+25-01-2024 17:24:09 Entró a LoadDataDictionary
+25-01-2024 17:24:09 [Error] Script: C:\keyser\system\InsertaEndbmarchivos.sql
+25-01-2024 17:24:09 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmarchivos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:c3db952a-9155-4dbb-a3eb-2978c13b474a
+Error Number:2714,State:3,Class:16
+25-01-2024 17:24:09 [Error] Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+25-01-2024 17:24:09 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmdiccionario' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:c3db952a-9155-4dbb-a3eb-2978c13b474a
+Error Number:2714,State:3,Class:16
+25-01-2024 17:24:09 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:24:09 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:c3db952a-9155-4dbb-a3eb-2978c13b474a
+Error Number:2714,State:3,Class:16
+25-01-2024 17:24:09 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:24:09 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:c3db952a-9155-4dbb-a3eb-2978c13b474a
+Error Number:2714,State:3,Class:16
+25-01-2024 17:24:16 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+25-01-2024 17:24:21 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+25-01-2024 17:24:23 Entró al Menú principal
+25-01-2024 17:24:25 Entró a LoadDataDictionary
+25-01-2024 17:24:25 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:24:25 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:483670b3-dc3b-4f75-925f-2d9893a98ce7
+Error Number:2714,State:3,Class:16
+25-01-2024 17:24:25 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:24:25 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:483670b3-dc3b-4f75-925f-2d9893a98ce7
+Error Number:2714,State:3,Class:16
+25-01-2024 17:30:26 Entró al Menú principal
+25-01-2024 17:30:31 Entró a LoadDataDictionary
+25-01-2024 17:30:32 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+25-01-2024 17:30:32 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:174c0a73-be07-4981-89c9-74a1e187d139
+Error Number:2714,State:3,Class:16
+25-01-2024 17:30:32 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+25-01-2024 17:30:32 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:174c0a73-be07-4981-89c9-74a1e187d139
+Error Number:2714,State:3,Class:16
+25-01-2024 17:30:38 Entró al Menú principal
+25-01-2024 22:48:07 Entró al Menú principal
+29-01-2024 22:38:37 Entró al Menú principal
+29-01-2024 22:44:53 Entró al Menú principal
+29-01-2024 22:44:59 Entró a Initial Setup
+29-01-2024 22:46:13 Entró al Menú principal
+29-01-2024 22:47:50 Entró a Initial Setup
+29-01-2024 22:51:11 Entró al Menú principal
+29-01-2024 22:51:17 Entró a Initial Setup
+29-01-2024 22:51:19 Entró al Menú principal
+29-01-2024 22:53:03 Entró a Initial Setup
+29-01-2024 22:54:07 Entró al Menú principal
+29-01-2024 22:57:53 Entró al Menú principal
+29-01-2024 22:58:12 Entró a Initial Setup
+29-01-2024 23:15:13 [Info] Ejecutó Script: C:\keyser\system\CreateDBkeyser.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbms.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbm_bases_datos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_archivos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmarchivos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_datos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmdiccionario.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmarchivos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\ActualizaMarcaEndbmdiccionario.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+29-01-2024 23:15:15 [Info] Ejecutó Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+29-01-2024 23:15:17 [Info] Ejecutó Script: C:\keyser\system\InsertaValoresDBMS.sql
+29-01-2024 23:29:53 Entró al Menú principal
+29-01-2024 23:34:19 Entró a Initial Setup
+29-01-2024 23:34:33 Entró al Menú principal
+29-01-2024 23:34:36 Entró a Initial Setup
+29-01-2024 23:59:32 Entró al Menú principal
+29-01-2024 23:59:35 Entró a Initial Setup
+29-01-2024 23:59:41 Entró al Menú principal
+29-01-2024 23:59:55 Entró a Initial Setup
+30-01-2024 00:01:52 [Info] Ejecutó Script: C:\keyser\system\CreateDBkeyser.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbms.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbm_bases_datos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_archivos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmarchivos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_datos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmdiccionario.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmarchivos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\ActualizaMarcaEndbmdiccionario.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 00:01:53 [Info] Ejecutó Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 00:01:55 [Info] Ejecutó Script: C:\keyser\system\InsertaValoresDBMS.sql
+30-01-2024 00:40:50 Entró al Menú principal
+30-01-2024 00:42:45 Entró a Initial Setup
+30-01-2024 00:46:25 Entró al Menú principal
+30-01-2024 00:46:27 Entró a Initial Setup
+30-01-2024 00:49:33 Entró al Menú principal
+30-01-2024 00:52:48 Entró al Menú principal
+30-01-2024 00:52:51 Entró a Initial Setup
+30-01-2024 00:54:24 Entró al Menú principal
+30-01-2024 00:55:17 Entró al Menú principal
+30-01-2024 00:55:20 Entró a Initial Setup
+30-01-2024 01:10:53 Entró al Menú principal
+30-01-2024 01:11:01 Entró a Initial Setup
+30-01-2024 01:11:07 Entró al Menú principal
+30-01-2024 01:17:48 Entró a Initial Setup
+30-01-2024 01:19:52 Entró al Menú principal
+30-01-2024 01:24:28 Entró a Initial Setup
+30-01-2024 01:28:29 Entró a Initial Setup
+30-01-2024 01:38:24 Entró al Menú principal
+30-01-2024 01:38:27 Entró a Initial Setup
+30-01-2024 01:40:18 Entró al Menú principal
+30-01-2024 01:44:00 Entró a Initial Setup
+30-01-2024 01:45:58 Entró a Initial Setup
+30-01-2024 01:46:04 Entró al Menú principal
+30-01-2024 01:50:00 Entró a Initial Setup
+30-01-2024 01:52:15 Entró a Initial Setup
+30-01-2024 01:55:20 Entró a Initial Setup
+30-01-2024 01:59:41 Entró a Initial Setup
+30-01-2024 02:00:23 Entró al Menú principal
+30-01-2024 02:00:28 Entró a LoadDataDictionary
+30-01-2024 02:00:28 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmarchivos.sql
+30-01-2024 02:00:28 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+30-01-2024 02:00:28 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 02:00:28 [Info] Ejecutó Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 02:04:51 Entró a Initial Setup
+30-01-2024 02:10:24 Entró a Initial Setup
+30-01-2024 02:12:56 Entró al Menú principal
+30-01-2024 09:39:53 Entró al Menú principal
+30-01-2024 09:45:26 Entró a Initial Setup
+30-01-2024 09:50:25 Entró al Menú principal
+30-01-2024 09:50:27 Entró a LoadDataDictionary
+30-01-2024 09:51:09 Entró al Menú principal
+30-01-2024 09:51:12 Entró a Initial Setup
+30-01-2024 09:51:59 Entró al Menú principal
+30-01-2024 09:54:36 Entró al Menú principal
+30-01-2024 09:54:38 Entró a LoadDataDictionary
+30-01-2024 09:58:40 Entró al Menú principal
+30-01-2024 09:58:49 Entró a Initial Setup
+30-01-2024 09:58:59 Entró al Menú principal
+30-01-2024 09:59:02 Entró a Initial Setup
+30-01-2024 09:59:11 Entró al Menú principal
+30-01-2024 09:59:14 Entró a Initial Setup
+30-01-2024 10:01:11 Entró al Menú principal
+30-01-2024 10:01:56 Entró al Menú principal
+30-01-2024 10:01:58 Entró a LoadDataDictionary
+30-01-2024 10:32:12 Entró a LoadDataDictionary
+30-01-2024 10:33:07 Entró a LoadDataDictionary
+30-01-2024 10:34:00 Entró a LoadDataDictionary
+30-01-2024 12:43:13 Entró a Initial Setup
+30-01-2024 12:44:41 Entró a Initial Setup
+30-01-2024 12:47:07 Entró a Initial Setup
+30-01-2024 12:51:48 Entró a Initial Setup
+30-01-2024 12:59:46 Entró a Initial Setup
+30-01-2024 13:14:56 Entró a Initial Setup
+30-01-2024 13:16:12 Entró al Menú principal
+30-01-2024 13:16:15 Entró a LoadDataDictionary
+30-01-2024 13:25:31 Entró a Initial Setup
+30-01-2024 13:33:14 Entró a LoadDataDictionary
+30-01-2024 13:36:08 Entró a LoadDataDictionary
+30-01-2024 13:36:18 Entró a LoadDataDictionary
+30-01-2024 13:36:37 Entró a LoadDataDictionary
+30-01-2024 13:36:58 Entró a Initial Setup
+30-01-2024 13:38:21 Entró al Menú principal
+30-01-2024 13:42:35 Entró a Initial Setup
+30-01-2024 15:07:15 Entró al Menú principal
+30-01-2024 15:07:38 Entró a Initial Setup
+30-01-2024 15:09:01 [Info] Ejecutó Script: C:\keyser\system\CreateDBkeyser.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbms.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbm_bases_datos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_archivos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmarchivos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmtipos_datos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\CreateTabledbmdiccionario.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmarchivos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\ActualizaMarcaEndbmdiccionario.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:09:03 [Info] Ejecutó Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:09:05 [Info] Ejecutó Script: C:\keyser\system\InsertaValoresDBMS.sql
+30-01-2024 15:09:19 Entró al Menú principal
+30-01-2024 15:18:26 Entró a Initial Setup
+30-01-2024 15:18:29 Entró al Menú principal
+30-01-2024 15:18:34 Entró a LoadDataDictionary
+30-01-2024 15:18:34 [Error] Script: C:\keyser\system\InsertaEndbmarchivos.sql
+30-01-2024 15:18:34 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmarchivos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:f3971acb-9425-4351-b04f-af81c0f05e1e
+Error Number:2714,State:3,Class:16
+30-01-2024 15:18:34 [Error] Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+30-01-2024 15:18:34 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmdiccionario' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:f3971acb-9425-4351-b04f-af81c0f05e1e
+Error Number:2714,State:3,Class:16
+30-01-2024 15:18:34 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:18:34 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:f3971acb-9425-4351-b04f-af81c0f05e1e
+Error Number:2714,State:3,Class:16
+30-01-2024 15:18:34 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:18:34 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:f3971acb-9425-4351-b04f-af81c0f05e1e
+Error Number:2714,State:3,Class:16
+30-01-2024 15:19:29 Entró al Menú principal
+30-01-2024 15:29:12 Entró al Menú principal
+30-01-2024 15:29:41 Entró a LoadDataDictionary
+30-01-2024 15:29:41 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:29:41 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:364648ac-26cd-4974-aed0-2115e191e531
+Error Number:2714,State:3,Class:16
+30-01-2024 15:29:41 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:29:41 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:364648ac-26cd-4974-aed0-2115e191e531
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:34 Entró al Menú principal
+30-01-2024 15:30:37 Entró a LoadDataDictionary
+30-01-2024 15:30:37 [Error] Script: C:\keyser\system\InsertaEndbmarchivos.sql
+30-01-2024 15:30:37 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmarchivos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:4e1c31ee-a838-4efa-89ac-e4668fc85676
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:37 [Error] Script: C:\keyser\system\InsertaEndbmdiccionario.sql
+30-01-2024 15:30:37 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmdiccionario' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:4e1c31ee-a838-4efa-89ac-e4668fc85676
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:37 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:30:37 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:4e1c31ee-a838-4efa-89ac-e4668fc85676
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:37 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:30:37 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en LoadDataDictionary.FormLoadDataDictionary.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\LoadDataDictionary\FormLoadDataDictionary.cs:línea 320
+ClientConnectionId:4e1c31ee-a838-4efa-89ac-e4668fc85676
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:40 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+30-01-2024 15:30:42 Proceso terminado. Se cargaron " + cont.ToString() + " tablas.
+30-01-2024 15:30:42 Entró al Menú principal
+30-01-2024 15:30:46 Entró a LoadDataDictionary
+30-01-2024 15:30:46 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:30:46 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:a9fb0d0f-5dd4-4550-b2fb-547a05aca49d
+Error Number:2714,State:3,Class:16
+30-01-2024 15:30:46 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:30:46 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:a9fb0d0f-5dd4-4550-b2fb-547a05aca49d
+Error Number:2714,State:3,Class:16
+30-01-2024 15:37:16 Entró al Menú principal
+30-01-2024 15:37:23 Entró a LoadDataDictionary
+30-01-2024 15:37:23 [Error] Script: C:\keyser\system\InsertaEndbmbases_datos.sql
+30-01-2024 15:37:23 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'InsertaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:691e6212-d14b-4686-861b-f84a4824a780
+Error Number:2714,State:3,Class:16
+30-01-2024 15:37:23 [Error] Script: C:\keyser\system\ActualizaEndbmbases_datos.sql
+30-01-2024 15:37:23 [Error] System.Data.SqlClient.SqlException (0x80131904): There is already an object named 'ActualizaEndbmbases_datos' in the database.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en SQLWizards.FormSQLWizards.EjecutarScriptSQL(SqlConnection pConn, String pNomScript, String pMsgDeError) en C:\keyser\SQLWizards\FormSQLWizards.cs:línea 151
+ClientConnectionId:691e6212-d14b-4686-861b-f84a4824a780
+Error Number:2714,State:3,Class:16
+30-01-2024 15:48:28 Entró al Menú principal
+30-01-2024 17:17:52 Entró a Initial Setup
